@@ -1,0 +1,18 @@
+{
+  "extends": ["react-app", "prettier", "prettier/react"],
+  "plugins": ["prettier"],
+  "rules": {
+    "arrow-body-style": ["warn", "as-needed"],
+    "import/newline-after-import": "warn",
+    "lines-between-class-members": "warn",
+    "no-var": "error",
+    "eqeqeq": ["error", "always", { "null": "ignore" }],
+    "prefer-arrow-callback": "warn",
+    "prefer-const": "warn",
+    "prefer-template": "warn",
+    "prettier/prettier": "warn",
+    "quotes": ["warn", "single", { "avoidEscape": true }],
+    "react/no-deprecated": "error",
+    "react/no-unused-prop-types": "warn"
+  }
+}
