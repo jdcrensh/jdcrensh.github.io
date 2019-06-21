@@ -8,7 +8,8 @@ branches:
   except:
     - master
 script:
-  - npm test
+  - npm test -- --coverage
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
   - npm run build
 deploy:
   provider: pages

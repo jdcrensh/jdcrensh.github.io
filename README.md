@@ -1,6 +1,7 @@
 # jdcrensh.github.io
 
 [![Build Status](https://img.shields.io/travis/jdcrensh/jdcrensh.github.io.svg?style=flat-square)](https://travis-ci.org/jdcrensh/jdcrensh.github.io)
+[![Coveralls github branch](https://img.shields.io/coveralls/github/jdcrensh/jdcrensh.github.io/source.svg)](https://coveralls.io/github/jdcrensh/jdcrensh.github.io)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
