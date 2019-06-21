@@ -1,6 +1,15 @@
+import React from 'react';
 import { createGlobalStyle } from 'styled-components/macro';
+import App from 'components/App';
 
-export default createGlobalStyle`
+const Root = () => (
+  <>
+    <GlobalStyles />
+    <App />
+  </>
+);
+
+const GlobalStyles = createGlobalStyle`
   body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -15,3 +24,5 @@ export default createGlobalStyle`
       monospace;
   }
 `;
+
+export default Root;
