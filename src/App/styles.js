@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import logo from './logo.svg';
 
 export const App = styled.div`
