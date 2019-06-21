@@ -2,12 +2,7 @@
   "name": "jdcrensh.github.io",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "styled-components": "^4.3.2"
-  },
+  "homepage": "https://jdcrensh.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -28,6 +23,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "coveralls": "^3.0.4"
